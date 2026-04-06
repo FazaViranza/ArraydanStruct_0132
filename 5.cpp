@@ -29,6 +29,7 @@ int main() {
         getline(cin, mhs[i].alamat.kota);
         cout << "Umur: ";
         cin >> mhs[i].umur;
+        cin.ignore(); // Membersihkan buffer
         cout << endl;
     }
 
