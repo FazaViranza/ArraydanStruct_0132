@@ -21,9 +21,9 @@ int main() {
     cout << "Mengisi Data" << endl;
 
     cout << "Nama: ";
-    getline(cin, mhs.nama);
+    cin >> mhs.nama;
     cout << "Desa: ";
-    getline(cin, mhs.alamat.desa);
+    cin >> mhs.alamat.desa;
     cout << "Kota: ";
     cin >> mhs.alamat.kota;
     cout << "Umur: ";
